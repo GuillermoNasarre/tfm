@@ -1,0 +1,2 @@
+order	dataset	format	header_index	url	schema	table	procedure
+1	flights	json	None	https://opensky-network.org/api/flights/all	stg	flights	load_fact_flights(

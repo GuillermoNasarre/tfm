@@ -1,0 +1,18 @@
+{
+    "mappings": {
+        "input": "input_mapping.tsv"
+    },
+    "connections": {
+        "db": {
+            "user": "dw_etl",
+            "password": "REPLACE_ME",
+            "host": "REPLACE_ME",
+            "port": 5432,
+            "database": "postgres"
+        },
+        "opsk": {
+            "username": "",
+            "password": ""
+        }
+    }
+}

@@ -1,0 +1,7 @@
+order	dataset	format	header_index	url	schema	table	extract	procedure
+1	countries	json	None	https://restcountries.com/v3.1/all?fields=name,cca2,cca3,region,subregion	stg	countries	TRUE	update_dim_country()
+2	aircraft_types	csv	0	https://opensky-network.org/datasets/metadata/doc8643AircraftTypes.csv	stg	aircraft_types	TRUE	update_dim_aircraft_type()
+3	manufacturers	csv	0	https://opensky-network.org/datasets/metadata/doc8643Manufacturers.csv	stg	manufacturers	TRUE	update_dim_manufacturer()
+4	airlines	csv	None	https://raw.githubusercontent.com/jpatokal/openflights/master/data/airlines.dat	stg	airlines	TRUE	update_dim_airline()
+5	airports	csv	None	https://raw.githubusercontent.com/jpatokal/openflights/master/data/airports.dat	stg	airports	TRUE	update_dim_airport()
+6	aircrafts	csv	0	https://opensky-network.org/datasets/metadata/aircraftDatabase.csv	stg	aircrafts	TRUE	update_dim_aircraft()
